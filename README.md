@@ -1,7 +1,7 @@
 ## Bad Apple played in Virtual Circuit Board
 
 Simple video player in VCB. Whilst designed for bad apple, can be applied to any video. 
-Only support 32x32 and 1 bit color and up to (2^18)/32 (8192) frames.
+Only support 32x32 and 1 bit color and up to 18 bits of addressing for frames, so, 8192 frames.
 
 .vcb file in the repository should have memory embedded, but if you want to recreate it yourself, here is blueprint:
 
