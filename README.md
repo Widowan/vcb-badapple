@@ -3,6 +3,8 @@
 Simple video player in VCB. Whilst designed for bad apple, can be applied to any video. 
 Only support 32x32 and 1 bit color and up to 18 bits of addressing for frames, so, 8192 frames.
 
+**Takes 640 ticks per frame, so if you are running making frames in 24 fps (default), use 15360 ticks per second**. 
+
 .vcb file in the repository should have memory embedded, but if you want to recreate it yourself, here is blueprint:
 
 ```base64
